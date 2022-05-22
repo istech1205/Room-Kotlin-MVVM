@@ -1,4 +1,4 @@
-package com.istech.notes
+package com.istech.notes.views
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.google.gson.Gson
+import com.istech.notes.R
 import com.istech.notes.adapter.NotesAdapter
 import com.istech.notes.databinding.ActivityMainBinding
 import com.istech.notes.models.Note

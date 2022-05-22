@@ -1,4 +1,4 @@
-package com.istech.notes
+package com.istech.notes.views
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.google.gson.Gson
+import com.istech.notes.R
 import com.istech.notes.databinding.ActivityAddNoteBinding
 import com.istech.notes.models.Note
 import com.istech.notes.utils.Const

@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Roomdatabse">
         <activity
-            android:name="com.istech.notes.AddNoteActivity"
+            android:name="com.istech.notes.views.AddNoteActivity"
             android:exported="false" />
         <activity
-            android:name="com.istech.notes.MainActivity"
+            android:name="com.istech.notes.views.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
