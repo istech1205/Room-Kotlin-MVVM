@@ -1,8 +1,8 @@
-package com.istech.roomdatabse.db
+package com.istech.notes.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.istech.roomdatabse.models.Note
+import com.istech.notes.models.Note
 
 @Dao
 interface NoteDAO {

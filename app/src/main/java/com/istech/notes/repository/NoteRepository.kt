@@ -1,8 +1,8 @@
-package com.istech.roomdatabse.repository
+package com.istech.notes.repository
 
 import androidx.lifecycle.LiveData
-import com.istech.roomdatabse.db.NoteDAO
-import com.istech.roomdatabse.models.Note
+import com.istech.notes.db.NoteDAO
+import com.istech.notes.models.Note
 
 class NoteRepository(private val notesDao: NoteDAO) {
     val allNotes: LiveData<List<Note>> = notesDao.getAllNotes()

@@ -1,4 +1,4 @@
-package com.istech.roomdatabse
+package com.istech.notes
 
 import org.junit.Test
 

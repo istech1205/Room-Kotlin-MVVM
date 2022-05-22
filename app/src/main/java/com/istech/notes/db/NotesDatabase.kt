@@ -1,10 +1,10 @@
-package com.istech.roomdatabse.db
+package com.istech.notes.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.istech.roomdatabse.models.Note
+import com.istech.notes.models.Note
 
 @Database(entities = [Note::class], version = 1)
 abstract class NotesDatabase : RoomDatabase() {

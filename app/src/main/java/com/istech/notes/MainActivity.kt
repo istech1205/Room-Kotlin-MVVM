@@ -1,4 +1,4 @@
-package com.istech.roomdatabse
+package com.istech.notes
 
 import android.content.Context
 import android.content.Intent
@@ -8,11 +8,11 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.google.gson.Gson
-import com.istech.roomdatabse.adapter.NotesAdapter
-import com.istech.roomdatabse.databinding.ActivityMainBinding
-import com.istech.roomdatabse.models.Note
-import com.istech.roomdatabse.utils.Const
-import com.istech.roomdatabse.vm.NotesVM
+import com.istech.notes.adapter.NotesAdapter
+import com.istech.notes.databinding.ActivityMainBinding
+import com.istech.notes.models.Note
+import com.istech.notes.utils.Const
+import com.istech.notes.vm.NotesVM
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

@@ -1,4 +1,4 @@
-package com.istech.roomdatabse.adapter
+package com.istech.notes.adapter
 
 import android.content.Context
 
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.istech.roomdatabse.R
-import com.istech.roomdatabse.databinding.NotesLayoutBinding
-import com.istech.roomdatabse.models.Note
+import com.istech.notes.R
+import com.istech.notes.databinding.NotesLayoutBinding
+import com.istech.notes.models.Note
 
 
 class NotesAdapter : RecyclerView.Adapter<NotesAdapter.ViewHolder>() {

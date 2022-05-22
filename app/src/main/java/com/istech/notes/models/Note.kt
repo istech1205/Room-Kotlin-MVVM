@@ -1,4 +1,4 @@
-package com.istech.roomdatabse.models
+package com.istech.notes.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
